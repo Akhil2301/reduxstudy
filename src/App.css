@@ -1,8 +1,10 @@
 body{
   margin: 0;
+  background-color: rgb(62, 60, 60);
 }
 .App {
   text-align: center;
+  color: azure;
 }
 
 .add button{
@@ -24,8 +26,32 @@ body{
   justify-content: center;
 }
 .post{
-  width: 60rem;
-  border: 1px solid black;
+  width: 40rem;
+  border-radius: 1rem;
+  border: 2px solid rgb(221, 219, 219);
   margin: 1rem 1rem 1rem 1rem;
-  box-shadow: 1px rgb(228, 159, 22);
+  box-shadow: 2px rgb(200, 197, 190);
+}
+.indata {
+  padding:.6rem .5rem .2rem .1rem;
+}
+.postAuthor{
+margin: .2rem .2rem .2rem .2rem;
+padding:.6rem 5rem .2rem 3rem;
+
+}
+.addpost{
+  display: flex;
+  flex-direction: column;
+}
+
+.addpost button{
+  margin-top: .2rem;
+  color: aliceblue;
+  background-color: rgb(8, 0, 255);
+  width: 12rem;
+  font-size: larger;
+  font-weight: bolder;
+  padding-top: 1rem;
+  border-radius: .5rem;
 }
